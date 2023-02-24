@@ -1,0 +1,16 @@
+.homePage{
+    background-image: url(./img/bgs.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+.column3{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+justify-content: space-around;
+ }
+ .column3 div img{
+    width: 200px;
+    display: block;
+    margin: auto;
+ }
